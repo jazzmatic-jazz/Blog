@@ -6,7 +6,7 @@ body{
 header{
     border-bottom: 2px solid red;
     margin: 2rem;
-    display: flexbox;
+    display: flex;
     font-family: 'Courier New', Courier, monospace;
 }
 

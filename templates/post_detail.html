@@ -5,8 +5,11 @@
 <div class="post-entry">
     <h2>{{ object.title }}</h2>
     <p>{{ object.body }}</p>
-    <aside><strong>by:{{ object.author }}</strong> </aside>
+    <aside><strong>by:{{ object.author }}</strong></aside>
 
 </div>
+
+<a href="{% url 'post_edit' post.pk %}">-Edit Blog post</a> <br>
+<a href="{% url 'post_delete' post.pk %}">Deleted the post</a>
 
 {% endblock content %}
